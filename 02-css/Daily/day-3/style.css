@@ -1,0 +1,181 @@
+
+/* Topic 7 (Animation & Transformation) ------------------------------------------------------------------------------------------> */
+
+/* .animated-box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-top: 200px;
+  margin-left: 600px;
+  transform: rotate(120deg);
+  transform: scale(1.5);
+  transform: scaleX(1.5);
+  transform: scaleY(1.5); 
+  transform: skew(30deg);
+  transform: skewY(30deg);
+  transition-duration: 2s;
+  transition-delay: 1s;
+} */
+
+/* .animated-box:hover {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+} */
+
+/* .animated-box-container {
+  margin-top: 200px;
+  margin-left: 600px;
+  position: relative;
+} */
+
+/* .animated-box {
+  width: 200px;
+  height: 200px;
+  animation-name: my-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  background-color: red;
+  position: absolute;
+} */
+
+
+
+/* 5s ke diff diff percentage par color change hoga  */
+/* @keyframes my-animation {
+  0% {
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background-color: blue;
+    top: 0;
+    left: 1300px;
+  }
+  50% {
+    background-color: green;
+    top: 450px;
+    left: 1300px;
+  }
+  75% {
+    background-color: yellow;
+    top: 450px;
+    left: 0;
+  }
+  100% {
+    background-color: purple;
+    top: 0;
+    left: 0;
+  }
+} */
+
+/* Topic 8 (Font Size) ----------------------------------------------------------------------------------------------------- */
+/* 
+  NOTES : 
+  1. rem is relative to the font-size of the root element (html) . 1 rem = 16px (default font-size of html)
+  2. em is relative to the font-size of the parent element . 1 em = 16px (default font-size of parent element)
+  3. default value (content-box) : Isme padding dete he box ka size me include hoti hai
+  4. border-box : Isme padding aur border dono box ka size me include hoti hai , extra size nhi increase hota
+*/
+
+
+/* p {
+  font-size: 2.5rem; 
+} */
+
+/* .card {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+} */
+
+/* Topic 9 (pseudoclasses) */
+/* NOTES 
+  1. Pseudoclasses are used to define a special state of an element.
+  2. It is used to style an element when it is in a specific state, such as when it is hovered over, focused, or active.
+  3. It is defined using a colon (:) followed by the name of the pseudoclass
+  4. card::before me ham kisi element ke phle content add kr skte h .  but ye copy nhi hoga
+  5. card::after me content property se text add kar sakte he
+  6. ::first-letter se ham kisi element ke first letter ko style kar sakte he
+  7. ::first-line se ham kisi element ke first line ko style kar sakte
+  8. ::marker se ham list ke marker ko style kar sakte he
+  9. :nth-child() se ham kisi element ke specific child ko style kar sakte he
+*/
+
+/* .card::before {
+  content: "hello world";
+} */
+
+/* p::first-letter {
+  font-size: 2rem;
+} */
+
+/* p::first-line {
+  font-size: 2rem;
+} */
+
+/* ::marker {
+  color: red;
+  font-size: 2rem;
+} */
+
+/* p:nth-child(even) {
+  background-color: red;
+} */
+
+/* Topic 10 (combinators) */
+/*  NOTES : 
+  1. Combinators are used to select elements based on their relationship with other elements in the DOM.
+  2. There are four types of combinators in CSS: descendant combinator, child combinator, adjacent sibling combinator, and general sibling combinator.
+  3. Descendant combinator (space) : It selects all elements that are descendants of a specified element.(child + sub-child...)
+  4. Child combinator (>) : It selects all elements that are direct children of a specified element.(only child not sub-child)
+  5. Adjacent sibling combinator (+) : It selects the element that is immediately following a specified element.(first sibling element)
+  6. General sibling combinator (~) : It selects all elements that are siblings of a specified element.
+*/
+
+
+/* div p {
+  color: red;
+} */
+
+/* div > p {
+  color: blue;
+} */
+
+/* div +  p {
+  color: blue;
+} */
+
+/* div ~ p {
+  color: blue;
+} */
+
+/* Topic 11 (Media Queries ) */
+/* NOTES : 
+  1. Media queries are used to apply different styles to different devices based on their screen size, resolution, orientation, and other characteristics.
+  2. It is defined using the @media rule followed by a media type and a set of conditions.
+  3. Default breakpoints for responsive design are :
+    a. 320-480px : Mobile devices
+    b. 481-768px : Tablets
+    c. 769-1024px : Small screens, laptops
+    d. 1025-1200px : Desktops
+    e. 1201px and above : Large screens, TVs
+*/
+
+/* #a1 {
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+}
+
+@media(min-width: 100px) and (max-width: 420px) {
+  #a1 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+  }
+} */
