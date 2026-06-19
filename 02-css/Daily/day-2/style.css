@@ -1,0 +1,153 @@
+
+.main{
+  position: relative;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  left: 50px;
+  z-index: 1;
+}
+
+#card-1{
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  top: 60px;
+  left: 50px;
+  z-index: 2;
+}
+
+#card-2{
+  position: absolute;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  top: 120px;
+  left: 100px;
+  z-index: 3;
+}
+
+#card-3{
+  position: absolute;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  top: 180px;
+  left: 150px;
+  z-index: 4;
+}
+
+/* Topic 2 ----------------------------------------------------------------------------------------------------- */
+
+.b{
+  visibility: hidden;
+}
+
+/* Topic 3 ----------------------------------------------------------------------------------------------------- */
+/* 
+.GFG{
+  background-color: lightgray;
+  font-size: 25px;
+  color: black;
+  float: left;
+} */
+
+/* I don't want to be beside any left-floated element. Move me below it. */
+/* p {
+  clear: left;
+} */
+
+/* Topic 4 ----------------------------------------------------------------------------------------------------- */
+
+/* .box{
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  box-shadow: 10px 10px 5px grey;
+} */
+
+/* Reverse shadow */
+/* .box{
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  box-shadow: -10px -10px 5px grey;
+} */
+
+/* Full shadow */
+/* .box{
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: rebeccapurple;
+  box-shadow: 0px 0px 50px blue;
+}
+
+h1{
+  text-shadow: 2px 2px 5px white;
+} */
+
+/* Topic 5 (Grid Layout) ----------------------------------------------------------------------------------------------------- */
+/* .grid-container {
+ display: grid;
+ column-gap: 20px;
+ row-gap: 20px;
+  grid-template-columns: 400px auto auto ;
+}
+
+.grid-item {
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid black;
+} */
+
+/* Topic 6 (Gradient) ----------------------------------------------------------------------------------------------------- */
+
+/* .gradient {
+  width: 700px;
+  height: 500px;
+  background-color: green;
+  background-image: linear-gradient(220deg,red 0%, red 20%, blue 20%, blue 40%, yellow 40%, yellow 60%, green 60% , green 80%, black 80%, black 100%);
+} */
+
+/* .gradient {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  background-image: radial-gradient(circle,red 0%, red 20%, blue 20%, blue 40%, yellow 40%, yellow 60%, green 60% , green 80%, black 80%, black 100%);
+} */
+
+/* .gradient {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  background-image: conic-gradient(red 0%, red 20%, blue 20%, blue 40%, yellow 40%, yellow 60%, green 60% , green 80%, black 80%, black 100%);
+} */
+
+/* .gradient {
+  width: 100%;
+  height: 95vh;
+  border-radius: 50%;
+  background-color: green;
+  background-image: repeating-conic-gradient(red 0%, red 20%, blue 20%, blue 40%, yellow 40%, yellow 60%, green 60% , green 80%, black 80%, black 100%);
+} */
+
+/* Topic 7 (Animation & Transformation) ------------------------------------------------------------------------------------------> */
+
+/* .animated-box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-top: 50px;
+  margin-left: 100px;
+  transform: rotate(120deg);
+  transform: scale(1.5);
+  transform: scaleX(1.5);
+  transform: scaleY(1.5);
+} */
