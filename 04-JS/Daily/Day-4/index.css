@@ -1,0 +1,32 @@
+/* Q1.  */
+.card {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 200px;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 600px;
+
+}
+
+/* Q2. */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+/* Q3. */
